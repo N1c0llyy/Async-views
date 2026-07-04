@@ -63,4 +63,4 @@ async def enviar_tarefa():
 
 async def enviar_view(request):
     await enviar_tarefa()
-    return HttpResponse("Envio iniciado")
+    return HttpResponse("Envio iniciado.")
